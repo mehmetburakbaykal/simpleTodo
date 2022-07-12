@@ -1,0 +1,70 @@
+body {
+  height: 100%;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 3px;
+  background-color: rgb(248, 237, 226);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7%;
+}
+
+h1 {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+
+/*  input container */
+.container {
+  width: 70%;
+  height: auto;
+  background-color: rgb(49, 49, 49);
+  margin: 5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.new-todo {
+  margin: 30px;
+}
+
+.input-box {
+  width: 50%;
+  font-size: 20px;
+  background-color: rgb(248, 237, 226);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 7px;
+}
+
+.todoList {
+  font-size: 25px;
+  margin: 25px;
+}
+
+/* buttons */
+.btn {
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(252, 185, 119);
+  background-color: rgb(49, 49, 49);
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(252, 185, 119);
+  color: rgb(255, 255, 255);
+}
+
+/* list items */
+.list-item {
+  list-style: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+}
